@@ -2,7 +2,7 @@ from preprocessData_studentID import cleanlist, preprocessLine, rid_tags
 from pprint import pprint
 
 class Parser:
-	"""docstring for ClassName"""
+	"""Parser class requires inputstring and processes data to return row ID, post Type, Date, Cleaned Body and Vocabulary size"""
 	def __init__(self, inputString):
 		self.inputString = inputString
 		self.ID = self.getID()
